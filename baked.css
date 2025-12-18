@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&family=Quicksand&family=Lobster&family=Pacifico&family=Cairo&display=swap');
+.font-quicksand { font-family: 'Quicksand', sans-serif; }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 0 0;
+    margin: 0 0;
+}
+a { 
+   text-decoration: none;
+   font-size: 2em; 
+   color: #9d8361; 
+   font-style: italic; 
+  }
+nav {
+    background: #66281f;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #66281f;
+    overflow: visible;
+}
+
+
+.menu-dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.navigation a {
+    font-family: 'Poppins', sans-serif;
+    color: #e6e5d5;
+    font-size: 20px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    color: #e6e5d5;
+    border-radius: 4px;
+}
+
+
+.menu-btn {
+    cursor: pointer;
+    padding: 8px 12px;
+    color: #e6e5d5;
+}
+
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-list {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10000;
+
+    background: #66281f;
+    width: 180px;
+    border-radius: 6px;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.menu-list li,
+.menu-list li p {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #e6e5d5;
+    margin: 0;
+    line-height: normal;
+}
+
+
+#menu-toggle:checked~.menu-list {
+    display: block !important;
+}
+
+.top h1 {
+    text-align: center;
+    margin: 25px 0;
+    color: #66281f;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+}
+
+.top h1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.title2 h2 {
+    text-align: left;
+    margin: 15px 0;
+    color: #66281f;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+.title2 h2 img {
+    width: 38px;
+    height: 38px;
+}
+
+
+.croissant {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding: 0 30px 40px;
+}
+
+.Donuts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding: 0 30px 40px;
+}
+
+.Bread_Rolls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding: 0 30px 40px;
+}
+
+.Bakery_Specials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding: 0 30px 40px;
+}
+
+.item {
+    box-shadow: 0 0 6px;
+    color:#a9332b;
+    border: none;
+    background: #f0e9e9;
+    border-radius: 15px;
+    padding: 18px;
+    margin: 10px 0;
+    text-align: center;
+    transition: 0.3s;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #994447;
+    color: #e6e5d3;
+    padding: 4px 10px;
+    font-size: 11px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.item:hover {
+    transform: translateY(-9px);
+}
+
+.item img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.item h5 {
+    color: #66281f;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.item p {
+    color: #66281f;
+    font-size: 12px;
+    margin: 5px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.price {
+    font-weight: bold;
+    color: #66281f;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+footer {
+    background-color: #66281f;
+    color: #e6e5d5;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.social-media-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 10%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+h6 {
+    font-size: 3em;
+    color: #e6e5d5;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.back-to-top{
+    color:#e6e5d5;
+    font-family: quicksand;
+  }
