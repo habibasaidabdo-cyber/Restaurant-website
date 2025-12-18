@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation Form</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar"> 	 	 
+            <p class="navigation"><a href="index.html">Home </a></p>
+            
+            <div class="menu-dropdown-container"> 
+                 <input type="checkbox" id="menu-toggle">
+                 
+                 <label for="menu-toggle" class="nav-link menu-btn"> ☰ Menu </label> 
+                 
+                 <ul class="menu-list"> 
+                     <li><p class="navigation" ><a href="maindish.html" > Main Dish</a></p></li>
+                     <li><p class="navigation"><a href="appetizers.html" > Appetizers</a></p></li>
+                     <li><p class="navigation"><a href="sweets.html" > Desserts</a></p></li>
+                     <li><p class="navigation"><a href="drinks.html" > Drinks</a></p></li>
+                     <li><p class="navigation"><a href="soup.html" > Soup</a></p></li>
+                     <li><p class="navigation"><a href="baked.html" > Bakery</a></p></li>
+                 </ul>
+            </div>
+            
+            <p class="navigation"><a href="reservation.html" > Reservation </a></p>
+            <p class="navigation"><a href="review.html" > Reviews </a></p> 
+        </div> 	 	 	 	 	 
+    </nav>
+
+    <div class="form-box">
+        <h2>Restaurant Booking</h2>
+
+        <form>
+
+            <div class="row">
+                <div class="field">
+                    <label>Full Name:</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+
+                <div class="field">
+                    <label>Phone Number:</label>
+                    <input type="text" placeholder="Enter phone number">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>Reservation Date:</label>
+                    <input type="date">
+                </div>
+
+                <div class="field">
+                    <label>Reservation Time:</label>
+                    <input type="time">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>Number of Guests:</label>
+                    <input type="number" min="1" placeholder="Guests">
+                </div>
+
+                <div class="field">
+                    <label>Seating Preference (Indoor/Outdoor):</label>
+                    <select>
+                        <option>Indoor</option>
+                        <option>Outdoor</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="field big">
+                <label>Special Requests (optional):</label>
+                <textarea placeholder="Write any special requests..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Reservation</button>
+
+        </form>
+    </div>
+    <footer>
+   <h6 class="font-lobster" id="contact">♡ Contact Us</h6>
+       
+    <div class="social-media">
+        <a href="https://facebook.com" target="_blank">
+            <img src="Img/facebookImage.jpg" alt="Facebook" width="30" height="30">
+        </a> | 
+        <a href="https://x.com" target="_blank">
+            <img src="Img/XImage.jpg" alt="X" width="30" height="30">
+        </a> | 
+        <a href="https://instagram.com" target="_blank">
+            <img src="Img/InstagramImage.jpg" alt="Instagram" width="30" height="30">
+        </a> <br/>
+        </div>
+        <a href="#top" class="back-to-top">Back to Top</a>
+           
+</footer>
+
+
+</body>
+</html>
