@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&family=Quicksand&family=Lobster&family=Pacifico&family=Cairo&family=Pinyon+Script&family=Great+Vibes&family=Josefin+Sans:wght@300&family=Pathway+Extreme:wght@300&display=swap');
+
+.font-quicksand { font-family: 'Quicksand', sans-serif; }
+.font-lobster { font-family: 'Lobster', cursive; font-weight: 300; }
+.font-pacifico { font-family: 'Pacifico', cursive; }
+a { 
+   text-decoration: none;
+   font-size: 2em; 
+   color: #9d8361; 
+   font-style: italic; 
+  }
+*{
+  font-family: "Lobster", sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html, body {
+  scroll-behavior: auto !important;
+  scroll-padding-top: 0 !important;
+  scroll-margin-top: 0 !important;
+}
+
+nav { 
+    background:#66281f; 
+    width:100%; 
+    padding:15px 0;
+}
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:#66281f;
+    overflow: visible; 
+}
+
+
+.menu-dropdown-container {
+    position: relative;
+    display: inline-block; 
+}
+
+
+.navigation a {
+    font-family:'Poppins', sans-serif;
+    color:#e6e5d5;
+    font-size:20px;
+    padding:8px 12px; 
+    transition:0.3s;
+}
+.navigation a:hover {
+    color:#e6e5d5;
+    border-radius:4px;
+}
+
+
+.menu-btn {
+    cursor:pointer;
+    padding:8px 12px;
+    color:#e6e5d5;
+}
+
+
+#menu-toggle { 
+    display:none; 
+}
+
+.menu-list {
+    list-style:none;
+    position:absolute; 
+    top:100%;
+    left:0;
+    z-index: 10000; 
+    
+    background:#66281f;
+    width:180px;
+    border-radius:6px;
+    display:none;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+.menu-list li,
+.menu-list li p {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li a {
+    display: block; 
+    padding: 10px 15px; 
+    font-size: 18px;
+    color: #e6e5d5;
+    margin: 0; 
+    line-height: normal;
+}
+
+
+#menu-toggle:checked ~ .menu-list {
+    display: block !important; 
+}
+
+
+.main{
+    width: 100%;
+    padding: 100px 200px;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    background-color: #e6e5d5;
+    background: url(img/last_background.avif)no-repeat;
+    background-position: 75% 25%;
+    background-size: 22%;
+}
+ 
+.main h1{
+  color: #66281f;
+  font-size: 100px;
+}
+.main h3{
+  color: #c5bcb0;
+}
+.main-btn{
+  color:white ;
+  background-color: #66281f;
+  text-decoration: none;
+  font-size: 1.3em; 
+  font-weight: 600;
+  display:inline-block;
+  padding: 0.8em 1.8em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin: 20px 20px;
+  transition: 0.3s ease;
+}
+.main-btn:hover{
+  background-color: #842E20;
+  transform: scale(1.1);
+}
+/*drinks menu*/
+
+.drinks{
+  width: 100%;
+  padding: 20px 20px;
+  background-color:white;
+}
+.drinks_title{
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#66281f;
+  font-family: 'Pacifico', cursive;
+
+}
+.hot_drinks{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#66281f;
+  padding: 30px 40px;
+  margin: auto;
+}
+.cold_drinks{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#66281f;
+  padding: 30px 40px;
+  margin: auto;
+}
+.content{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+     box-shadow: 0 0 6px;
+    color:#a9332b;
+    border: none;
+    background: #f0e9e9;
+  width: 400px;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.3s;
+}
+.card:hover{
+   transform: translateY(-9px);
+}
+
+.image-b{
+  width: 300px;
+  height: 150px;
+  padding: 5px 10px;
+}
+
+.small_card{
+  width: 45px;
+  height: 45px;
+  float: right;
+  position: relative;
+  top:-140px;
+  right:-8px;
+  opacity: 1;
+  border-radius: 7px;
+}
+.small_card i{
+  color:#66281f ;
+  font-size: 25px;
+  display: flex;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.small_card i:hover{
+   color: red;
+
+}
+.name{
+  color: #66281f;
+}
+.Price{
+  color:#66281f;
+}
+.drink_icon{
+  color: #66281f;
+}
+.social-media-icons a {
+  display:flex;
+  justify-content:center;
+  align-items: center ;
+  gap:60px;
+  margin-top:10%;
+  width: 100%;
+  padding-bottom: 20px;
+  
+}
+
+
+h6 {
+   font-size: 3em;
+   color: #e6e5d5;
+   padding: 20px; 
+   margin-bottom: 0;
+  }
+  .back-to-top{
+    color:#e6e5d5;
+    font-family: quicksand;
+  }
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+
+footer {
+  background-color: #66281f;
+    color: #e6e5d5;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+ 
+
+
+
+
+
+
+
