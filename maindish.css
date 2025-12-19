@@ -134,6 +134,7 @@ body{
     padding-top: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 6px;
+    flex: 1 1 250px;
     color:#a9332b;
     border: none;
     background: #f0e9e9;
@@ -210,3 +211,4 @@ h6 {
   
   }
   
+
