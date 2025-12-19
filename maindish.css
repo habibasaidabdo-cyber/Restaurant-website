@@ -197,20 +197,7 @@ footer {
   padding-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  h1 {
-    font-size: 24px;
-  }
-
-  .menu_card{
-    margin: auto;
-  }
-}
 
 h6 {
    font-size: 3em;
@@ -223,9 +210,3 @@ h6 {
   
   }
   
-
-
-
-
-
-
