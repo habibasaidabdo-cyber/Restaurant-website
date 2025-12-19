@@ -107,6 +107,7 @@ nav {
     width: 30px;
     height: 30px;
     filter: invert(1);
+    brightness: 0.8;
 }
 
 .title2 h2 {
@@ -122,6 +123,7 @@ nav {
     width: 38px;
     height: 38px;
     filter: invert(1);
+    brightness: 0.8;
 }
 
 
@@ -247,3 +249,4 @@ h6 {
     font-family: quicksand;
 
   }
+
