@@ -29,7 +29,7 @@ h1 {
   color:  #f0e9e9;
   text-shadow: 2px 2px 4px rgba(45, 5, 5, 0.7);
   margin: 0;
-  background-image: url(Img/background.jpeg);
+  background-image: url(Img/background.jpg);
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -312,6 +312,7 @@ footer {
   width: 100%;
   padding-bottom: 20px;
 }
+
 
 
 
