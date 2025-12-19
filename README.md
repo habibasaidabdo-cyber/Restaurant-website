@@ -122,9 +122,6 @@ This website is compatible with:
 
 The website is fully responsive and optimized for:
 - Desktop computers
-- Tablets
-- Mobile phones
-
 ## 🤝 Contributing
 
 Feel free to fork this project and submit pull requests for any improvements.
