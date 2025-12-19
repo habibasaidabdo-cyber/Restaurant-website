@@ -106,12 +106,7 @@ nav {
 .top h1 img {
     width: 30px;
     height: 30px;
-    filter: brightness(0);
-    filter: invert(1);
-    background-color: white;
-  border-radius: 50%;
-  padding: 15px;
-  display: inline-block;
+   filter: brightness(0);
 }
 
 .title2 h2 {
@@ -126,8 +121,7 @@ nav {
 .title2 h2 img {
     width: 38px;
     height: 38px;
-    filter: invert(1);
-    brightness: 0.8;
+   filter: brightness(0);
 }
 
 
@@ -253,5 +247,6 @@ h6 {
     font-family: quicksand;
 
   }
+
 
 
