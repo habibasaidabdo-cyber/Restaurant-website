@@ -103,15 +103,7 @@ nav {
     font-family: 'Pacifico', cursive;
 }
 
-.top h1 img {
-    width: 30px;
-    height: 30px;
-  background-color: white !important; 
-    padding: 5px !important;            
-    border-radius: 4px !important;      
-    vertical-align: middle;
-    filter: none !important;
-}
+
 
 .title2 h2 {
     text-align: left;
@@ -122,15 +114,7 @@ nav {
     font-family: 'Pacifico', cursive;
 }
 
-.title2 h2 img {
-    width: 38px;
-    height: 38px;
-    background-color: white; 
-    padding: 8px;            
-    border-radius: 50%;      
-    vertical-align: middle;  
-    margin-right: 10px;
-}
+
 
 
 .croissant {
@@ -255,6 +239,7 @@ h6 {
     font-family: quicksand;
 
   }
+
 
 
 
