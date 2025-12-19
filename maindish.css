@@ -129,8 +129,7 @@ body{
     grid-gap:10px;
 }
 .menu .menu_box .menu_card{
-    width: 100%;
-    max-width: 300px;
+    width: 325px;
     height: 480px;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -211,6 +210,7 @@ h6 {
   
   }
   
+
 
 
 
