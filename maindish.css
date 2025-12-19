@@ -100,11 +100,6 @@ body{
 #menu-toggle:checked ~ .menu-list {
     display: block !important; 
 }
-.menu{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
 .menu h1{
     font-size: 55px;
     display: flex;
@@ -216,6 +211,7 @@ h6 {
   
   }
   
+
 
 
 
