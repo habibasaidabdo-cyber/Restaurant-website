@@ -127,7 +127,5 @@ The website is fully responsive and optimized for:
 Feel free to fork this project and submit pull requests for any improvements.
 
 
----
-Website link:
-https://habibasaidabdo-cyber.github.io/Restaurant-website
+.......
 **Enjoy exploring our restaurant website! 🍽️**
